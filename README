@@ -1,0 +1,43 @@
+****************
+* LA1
+* CS 354 Section 2
+* 09/19/2018
+* Seema Marahatta
+*****************
+
+OVERVIEW:
+  This function returns a copy of the list source with every element duplicated 
+  a specific number of times. 
+
+COMPILING AND RUNNING:
+  Compiling this program is pretty easy, I personally prefer to run it with
+  mit-scheme over guile, to do that, from the kernel with the program run
+  $ mit-scheme
+
+  Once that screen loads, go ahead and load the program with the following comamnd
+  $ (load "super-duper.scm")
+
+  At this point the program is locked, loaded, and ready to go! You can go ahead
+  and run the program with the following command
+  $(super-duper source count)
+
+  If, for instance, you want to repeat 1 2 3 three times, you would run
+  $(super-duper '(1 2 3) 3)
+
+Testing
+ In order to test this program I created a test function. This function can be
+ seen on the second half of the super-duper class. The test just shows the
+ expected results, and tests the super-duper function to ensure that the results
+ do indeed match up.
+
+Discussion
+ This project was pretty rough. Scheme is such a strange language, I didn't know
+ where to even begin. It was really easy to feel overwhelmed when just looking at
+ an example of Scheme code, which made it even more challenging to begin the project.
+ The best place to start was the book, although it didn't have a ton of examples,
+ it gave me improtant information on what I could start with, namely, define and 
+ lambda. Another large source of frustration was not knowing how to actually compile
+ the code. When I came across mit-scheme on the GNU Scheme man page, I was quite
+ relived-- or at least I was when I realized how easy it was to use. Scheme is
+ definitely unlike any other language I have worked with beofre, and the furstrating
+ experience definitely taught me a lot.
